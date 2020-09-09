@@ -29,7 +29,7 @@ public class PageManager{
             openYad2();
             loginPage.setUserName(EMAIL).setPassword(PASSWORD).login();
             List<String> postsIds = new ArrayList<>();
-            postsIds.add("Set your own posts identifiers. e.g: 'בן יהודה - ירושלים' (address)");
+            postsIds.add("Set your own posts identifiers. e.g: 'בן יהודה - ירושלים' (address), '1000$' (price) etc.");
             myAreaPage.checkForPopUpAndCloseById().openMyPosts().popUpMyPosts(postsIds);
     }
 
