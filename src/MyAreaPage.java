@@ -17,12 +17,9 @@ public class MyAreaPage extends Page{
     private String popUpBtnId = "bounceRatingOrderBtn";
     private String adCloseBtnXpath = "//div[@id='sLightbox_container']//div[@class='close_btn']";
 
-
-
     public MyAreaPage (WebDriver driver){
         super.driver = driver;
     }
-
 
     public MyAreaPage openMyPosts() throws InterruptedException {
         WebElement myPosts=findElementBy(By.xpath(myPostsXpath));
@@ -84,6 +81,5 @@ public class MyAreaPage extends Page{
             post.click();
             Thread.sleep(Constants.TWO_SEC);
         }
-
     }
 }

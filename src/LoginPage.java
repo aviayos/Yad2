@@ -8,8 +8,6 @@ public class LoginPage extends Page{
     private String userNameId = "userName";
     private String loginId = "submitLogonForm";
 
-
-
     public LoginPage (WebDriver driver){
         super.driver = driver;
     }
