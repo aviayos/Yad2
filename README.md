@@ -5,7 +5,7 @@ The program sign in to the user private area, after publishing the post, and pop
 Written in Java
  
 
-# Installation and Error Handling
+## Installation and Error Handling
 
 Before you run the app: configure on PageManager.java your own password, email and identifiers (see in the file).
 Download the whole repository and run the jars placed in 'out' folder by cmd.
