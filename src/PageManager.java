@@ -8,8 +8,8 @@ import java.util.List;
  * pop the post/s
  */
 public class PageManager{
-    private static final String EMAIL = "ziony51@gmail.com";
-    private static final String PASSWORD = "zi1951on";
+    private static final String EMAIL = "";
+    private static final String PASSWORD = "";
 
     private LoginPage loginPage;
     private MyAreaPage myAreaPage;
@@ -29,7 +29,7 @@ public class PageManager{
             openYad2();
             loginPage.setUserName(EMAIL).setPassword(PASSWORD).login();
             List<String> postsIds = new ArrayList<>();
-            postsIds.add("ירושלים - פארן");
+            postsIds.add("");
             myAreaPage.checkForPopUpAndCloseById().openMyPosts().popUpMyPosts(postsIds);
     }
 
